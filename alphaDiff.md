@@ -67,7 +67,7 @@ cross-version的二进制不仅在syntactic上有所不同，在semantic上也�
 损失函数这里是他们自己重新定义的：
 
 $$D1(I_q,I_t)=||f(I_q;\theta)-f(I_t;\theta)||$$
-$$L(\theata) = Average_{(I_q,I_t)}{y \dot D1(I_q,I_t)+(1-y) \dot max(0,m-D1(I_q,I_t))}$$
+$$L(\theta) = Average_{(I_q,I_t)}{y \dot D1(I_q,I_t)+(1-y) \dot max(0,m-D1(I_q,I_t))}$$
 
 这里的m是作为预先设置的超参数存在的
 

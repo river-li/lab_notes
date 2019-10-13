@@ -1,10 +1,11 @@
 ---
-title: Example
+title: README
 mathjax: true
 author: Admin
 date: 2019-10-11 19:44:05
 categories: 
 - Paper
+top: true
 ---
 
 # Introduction
@@ -49,3 +50,13 @@ And in your markdown file, you also need to add some codes.
 ```
 
 Don't use traditional markdown image hyper link, or the image will not display correctly.
+
+## Read more
+
+When your post has too many words, it would be automaticly excerpted, you can set where to fold manualy by adding following code:
+
+```
+<!--more--->
+```
+
+Content below this line would be folded, or it would be auto excerpted at the length of 150 words.
