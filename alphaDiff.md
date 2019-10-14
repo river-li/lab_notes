@@ -15,6 +15,8 @@ categories:
 
 文中主要是设计了一个深度学习的系统用于跨版本的二进制相似度分析，主要采用了三个特征：intra-function、inter-function、inter-module
 
+<!--more--->
+
 ## Introduction
 
 BCSD有很多应用，甚至可以通过分析打补丁前后的文件用于分析1Day漏洞以及总结漏洞模式；更进一步的，将BCSD应用在已知的BUG和目标程序上还可以实现不同架构机器上的漏洞挖掘
