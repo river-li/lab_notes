@@ -10,6 +10,8 @@ tags:
 - malware
 ---
 
+# Poirot: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting
+
 ## 概要 | ABSTRACT
 
 POIROT 使用内核审计日志 (Kernel Audit Log) 为数据源构建起源图 (Provenance Graph, G<sub>p</sub>)，通过与用威胁情报构建的查询图 (Query Graph, G<sub>q</sub>) 进行匹配来检测系统是否存在威胁。作者使用了三种不同类型的数据集，三种不同的操作系统对 POIROT 的性能进行评估。评估结果表明，POIROT 能在几分钟之内，从百万数量级的节点中发现闭关指出攻击行为。
